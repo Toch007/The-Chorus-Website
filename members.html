@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Chorus Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/chorus-ico.png">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img loading="lazy" src="images/choruss.png" class="main-logo">
+            <div class="nav-list" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="donate.html">DONATE</a></li>
+                    <li><a href="members.html">MEMBERS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="music.html">MUSIC SCORE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>MEET THE CHORUS</h1>
+    </section>
+
+
+    <div class="members-list">
+        <p>Click the boxes to view</p>
+        <button id="musicDirector" class="click-here2">Music Director</button>
+    </div>
+
+    <section>
+        <div class="personal-bio hidden directorSelect">
+            <h1>Meet the Music Director</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/kelechi1.jpg">
+                </div>
+                <div class="bio">
+
+                    <h1>Kelechi Nnam</h1>
+
+                    <p>Kelechi Nnam is a trained Engineer
+                        and a practicing Business Development Expert with
+                        a flair for good music.
+                        A counter Tenor of high repute, songwriter and
+                        worship leader with interests in music composition
+                        and choral conducting.
+                        He joined the Laz Ekwueme Chorale in 2005 where he
+                        got most of his training from HRH Igwe Prof Laz
+                        Ekwueme. He holds a diploma in music and is
+                        currently the music Director of The Chorus.<br>
+                        He has served as Choirmaster and Music Director in
+                        various Anglican and Methodist Churches in Nigeria.<br>
+                        <br>He is currently the Deputy Choirmaster of St. Matthew's
+                        Anglican Church Maitama, and is married to Chidera.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <button id="accompanists" data-button="accompanists" class="click-here2">Accompanists</button>
+
+        <div class="personal-bio hidden accompanistsSelect">
+            <h1>Meet the Accompanists</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Iheanyi.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Iheanyi Owutu</h1>
+
+                    <p>
+                        Iheanyi Owutu Started his musical journey as a soprano singer 
+                        at St Peters Anglican Church, Karu, Abuja, where he also served 
+                        as the church organist. <br> Born into a music family, he grew 
+                        through the 'ranks' in the choir: Soprao-Alto-Tenor - Bass (Bass 
+                        unofficial). It is safe to say he is a Tenor. <br> 
+                        The Abia State indigene holds a degree in Sociology/Anthropology 
+                        from Nnamdi Azikiwe University, Awka. <br>
+                        He served as the Organist and one time choir master of the Anglican 
+                        Chapel (temporal and permanent sites) Chapel of Redemption - Nnamdi 
+                        Azikiwe University, Awka; Organist at St Marks Anglican Church, 
+                        Emene, Enugu; St Michael and All Angels Anglican Church, Ifite Awka, 
+                        Anambra state etc. He is presently the organist of the Basilica of 
+                        Grace, Gudu, Abuja. <br>
+                        He is one of the accompanists of THE CHORUS, amongst others.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/lawal1.jpg">
+                </div>
+                <div class="bio">
+
+                    <h1>Lawal Omeiza Godwin</h1>
+
+                    <p>
+                        Lawal Omeiza Godwin is a pianist who also holds a 
+                        degree in Building Technology. He has performed several 
+                        piano solos and choral works by Nigerian and Western 
+                        composers from different musical eras. He is also a fine 
+                        organist. His passion for new skills and acquiring knowledge 
+                        led to his discovery and love for music. <br>
+                        Lawal has a Diploma in Church Music Performance and has gained 
+                        a lot of experience serving as a Pianist/Organist in various 
+                        capacities in different parts of Nigeria. <br>
+                        He served as an organist and director of music at the St. John's 
+                        Anglican Church, Ohueta, Diocese of Okene, an Organist at the 
+                        Independent Baptist Church, Tunga, Minna, Niger state, as a 
+                        visiting organist at the Anglican Church of the Pentecost, 
+                        Mabushi, and St Matthew's Anglican Church Maitama, both located 
+                        in Abuja. He is also the assistant accompanist/pianist for the 
+                        prestigious Minna Choral society, was the resident Pianist for 
+                        the Rising star recital series project in 2021 for the Nigerian 
+                        philharmonic company, Abuja, is currently a member of the Festival 
+                        Of Praise Choir And Orchestra (FOPCAO), Abuja, Nigeria, and one of 
+                        the accompanists of The Chorus.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/lawal1.jpg">
+                </div>
+                <div class="bio">
+
+                    <h1>Lawal Omeiza Godwin</h1>
+
+                    <p>
+                        Lawal Omeiza Godwin is a pianist who also holds a 
+                        degree in Building Technology. He has performed several 
+                        piano solos and choral works by Nigerian and Western 
+                        composers from different musical eras. He is also a fine 
+                        organist. His passion for new skills and acquiring knowledge 
+                        led to his discovery and love for music. <br>
+                        Lawal has a Diploma in Church Music Performance and has gained 
+                        a lot of experience serving as a Pianist/Organist in various 
+                        capacities in different parts of Nigeria. <br>
+                        He served as an organist and director of music at the St. John's 
+                        Anglican Church, Ohueta, Diocese of Okene, an Organist at the 
+                        Independent Baptist Church, Tunga, Minna, Niger state, as a 
+                        visiting organist at the Anglican Church of the Pentecost, 
+                        Mabushi, and St Matthew's Anglican Church Maitama, both located 
+                        in Abuja. He is also the assistant accompanist/pianist for the 
+                        prestigious Minna Choral society, was the resident Pianist for 
+                        the Rising star recital series project in 2021 for the Nigerian 
+                        philharmonic company, Abuja, is currently a member of the Festival 
+                        Of Praise Choir And Orchestra (FOPCAO), Abuja, Nigeria, and one of 
+                        the accompanists of The Chorus.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <button id="sopranos" class="click-here2">Soprano</button>
+
+        <div class="personal-bio hidden sopranosSelect">
+            <h1>Meet the Sopranos</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Nengi.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Nengimonyu Susan Okara (Mrs)</h1>
+
+                    <p>
+                        Meet Nengimonyu Susan Okara (Mrs), a geologist and soprano 
+                        singer with The Chorus, Abuja. <br>
+                        Nengi is a natural coloratura with a beautiful tone and pitch 
+                        that leaves you wanting more. <br>
+                        She is the CEO of Snowbud Style Empire, a celebrity fashion 
+                        designer and an executive makeup artist. <br>
+                        She started singing at a tender age in her home church, St. 
+                        Luke's Cathedral, Nembe. She has gone on to sing in different 
+                        church and concert choirs including Holy Trinity Anglican Church, 
+                        Choba, Port Harcourt Choral Voices, St Matthews Anglican Church, 
+                        Gwarinpa, where she served as the Assistant Choir Mistress before 
+                        joining The Chorus Abuja. <br>
+                        She is married to Engr. Budubueze Ozuru and is blessed with two 
+                        celestial kids, Budukaeze Tarite and Buduoma Nengiala.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Ufedo.JPEG">
+                </div>
+                <div class="bio">
+
+                    <h1>Ufedo Attah-Olottah</h1>
+
+                    <p>
+                        Ufedo hails from Anambra State and has a degree in Microbiology 
+                        with a Masters in Environmental Microbiology. <br>
+                        She has been a member of the All Saints Anglican Church Choir, 
+                        Abuja, since she was 5yrs old. <br>
+                        She is a member of the Light of Hymns music group and a wonderful 
+                        soprano soloist with a voice of a nightingale. Her vibrato on high 
+                        pitches is second to none and practically leaves you in tears. <br>
+                        She is currently an Entrepreneur and her Hobbies are Scrabble, 
+                        Reading novels and listening to all genres of music.
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Ogechi 1.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Ogechi Ojemuyiwa (Mrs)</h1>
+
+                    <p>
+                        Ogechi Ojemuyiwa holds a degree in Project Management 
+                        Technology from Federal University of Technology, Owerri, 
+                        Imo state. <br>
+                        Ogechi started out as a member of the All Saints Cathedral, 
+                        Aba-Ngwa North in Abia state Nigeria. She is presently a 
+                        chorister in All Saints Anglican Church, Wuse, Abuja, Abuja 
+                        Chorale Ensemble and she sings soprano. <br>
+                        A soloist of high repute with a strong, yet mild lyrical 
+                        voice. She has performed several solo pieces. <br>
+                        Her hobbies are singing, reading and swimming. <br>
+                        She presently works as a school Administrator in a private school in Abuja.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/precious.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Precious Oluchi Kanu</h1>
+
+                    <p>
+                        Precious Oluchi Kanu is from Abia State and holds 
+                        a degree in International Relations From the university 
+                        of Les Cours Sonou, Cotonou, Benin Republic. <br>
+                        She is a chorister of the All Saints Anglican Church, 
+                        Wuse, Abuja. With her beautiful lyrical voice, Precious 
+                        can sing almost anything and will definitely leave her 
+                        audience in no doubt of her strong musicianship. <br>
+                        Her hobbies are singing, dancing, travel and cooking. 
+                    </p>        
+                </div>
+
+            </div>
+
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/margret.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Margret Eyidenghan Oriepeigha (Mrs)</h1>
+
+                    <p>
+                        Margret Eyidenghan Oriepeigha (Mrs) hails from Bayelsa State.
+                        A graduate of Banking & Finance from the Unversity of Port 
+                        Harcourt, She is a Professional Accountant,Tax Expert and an 
+                        Entrepreneur. <br>
+                        Her Music career started with the Philharmonic Concert Choir, 
+                        Port Harcourt, Rivers state, Nigeria where she sang for so many 
+                        years. <br> She is currently a Chorister of the All Saints 
+                        Anglican Church Abuja and a member of The Chorus.
+                        Her dramatic yet tender voice is an awe to behold. <br>
+                        Margret loves singing, traveling and adventures.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        <button id="altos" class="click-here2">Alto</button>
+
+        <div class="personal-bio hidden altosSelect">
+            <h1>Meet the Altos</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Amara.jpg">
+                </div>
+                <div class="bio">
+
+                    <h1>Amarachi Okpara</h1>
+
+                    <p>Okpara Amarachi Emilia (Amyleemirald), is a native of Imo state 
+                        and a graduate of biochemistry from the Federal University of 
+                        Technology, Owerri (FUTO). <br>
+                        She started singing during her secondary school days but later 
+                        went on to became a more serious chorister when she joined the 
+                        ACOL choir in Federal University of Technology, Owerri. Her 
+                        consistent drive, knowledge and passion for music went on to 
+                        earn her the position of the Alto part leader and subsequently, 
+                        choirmistress in 2012/2013.
+                        She is a member of various choral groups in Abuja where she 
+                        currently resides and also a chorister of The Anglican church 
+                        of the Pentecost, Mabushi, Abuja. She currently works as a 
+                        client relationship/operations assistant. <br>
+                        Her hobbies are signing, playing word games and travelling.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Ngozi.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Ngozi Owutu</h1>
+
+                    <p> 
+                        Owutu Ngozi Deborah is from Abia state, a lover of music who 
+                        started singing at a very tender age. <br> 
+                        She joined the choir in the year 1995 and has continued to 
+                        break boundaries and exceed expectations as long music is 
+                        concerned. <br>
+                        Ngozi is contralto with a very wide vocal range. A great 
+                        soloist that will leave you in awe with her mesmerizing voice. <br>
+                        Her Hobbies are singing, playing volleyball and adventure.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Chidera.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Chidera Nnam</h1>
+
+                    <p>
+                        Chidera Nnam is a graduate of Biochemistry. She also holds a 
+                        Masters degree from University of Bradford, UK. <br>
+                        She started singing in her secondary school with the Marian 
+                        Voices of Regina Pacis College, Abuja. <br>
+                        She is a very fine and versatile alto who can switch perfectly 
+                        between classical and contemporary music. Chidera is a member 
+                        of the choir of St. Matthew's Anglican Church, Maitama. <br>
+                        Her hobbies are reading, researching, listening to music, singing and crafts. She is married to Kelechi Nnam.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Joy 2.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Biebele Friday Eretoru</h1>
+
+                    <p>
+                        Biebele Joy Eretoru is a trained Plant Biotechnologist, 
+                        Educationist and Fashion designer currently working as a 
+                        Fashionpreneur and a Development practitioner with a passion 
+                        for good Church/gospel music. <br> 
+                        She doubles as an Alto and a mezzo-Soprano and is also a contemporary 
+                        gospel worship leader. <br>
+                        She has served as a Chorister and a member of the gospel 
+                        praise/worship team in different churches in South-southern 
+                        and south-western Nigeria. <br>
+                        She joined the wood-wind ensemble of God's own choir 
+                        (Bethel Anglican Church Amadi-Ama) in 2008 where she got most 
+                        of her training in classical music, contemporary and in the 
+                        recorder instrument. She later joined the Harmonic ensemble 
+                        in 2014, and then the Fused Ensemble Port Harcourt in 2017, 
+                        where she was mentored in Music by Dr. Precious Omuku who was 
+                        also the Director of Music. <br>
+                        She is the Creative Director of BJ's KORNA, a Start-up sustainable 
+                        fashion brand, and the founder of ORFSKAP INITIATIVE. An initiative 
+                        for Orphans where she takes sustainable and ethical fashion skills 
+                        training to the orphanage, training teenagers and young adults in 
+                        the vocation.
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/tochukwu.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Tochukwu Uche</h1>
+
+                    <p>
+                        Tochukwu is a from Abia State, a multipurpose chorister. 
+                        He holds a degree in Accounting, and is also a Company Incorporation 
+                        Consultant, a computer software and hardware consultant, and a 
+                        Frontend Web Developer. <br>
+                        He was born into a family of choristers and music lovers which 
+                        made his relationship with music "Love at first sight". <br>
+                        He started his music career at a tender age and was quickly exposed 
+                        to both classical and contemporary music. He started out as a 
+                        tenor and later went on to sing soprano, sang some bass solos 
+                        and finally settled for the Alto part. He started his music journey at 
+                        St. Peters Anglican Church, Kano, under the guidance of Late Meastro Godfrey 
+                        Osondu. He was also a member of St. Nicholas Anglican church Choir, Aluu, 
+                        Port Harcourt, University of Port Harcourt Choir, St. Barthlomew Cathedral Choir, 
+                        The Blue Notes, Abuja Choral society and Festival of Praise Choir. <br>
+                        He has a vast knowledge of classical music and composers, and is also a Collector of music. 
+                        Some refer to him as "The Archive" due to his vast library of classical music. <br>
+                        His hobbies are singing, research, coding, traveling and making friends.
+
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <button id="tenors" class="click-here2">Tenor</button>
+
+        <div class="personal-bio hidden tenorsSelect">
+            <h1>Meet the Tenors</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/raphael.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Raphael Ipalibo</h1>
+
+                    <p>
+                        Raphael Ipalibo Gogo or “RIG” as he prefers to be called is from Rivers State. <br>
+                        He is an Office and Information Manager/Administrator by profession 
+                        and is also a Travel Consultant/Agent who holds a bachelors Degree 
+                        in Office and Information Management and has attained other professional 
+                        Certifications. <br>
+                        RIG is an all round music lover who sings the Tenor part. His classical 
+                        music journey started from De Trinity Choir (Holy Trinity Lutheran 
+                        Church, Idama) 2003, where He started as a counter tenor. <br> 
+                        Some Other choirs RIG belonged to are; The Capital Choir (St. Matthews 
+                        Lutheran Church, Mile 1 Diobu, Port Harcourt), St. Matthias African Church 
+                        Cathedral Choir, Mile 2 Diobu, Port Harcourt, Quintessential Choir 
+                        (St. Matthews Anglican Church, Maitama, Abuja), De Champions Choir Port 
+                        Harcourt, Port Harcourt Choral Voices, Selected Voices of Port Harcourt, 
+                        Port Harcourt Male Ensemble, Rivers State University Choir, Festival of 
+                        Praise Choir Abuja, Abuja City Choral, and The Chorus, Abuja.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Chinedu.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Chinedum Deval Samuel</h1>
+
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Boma.png">
+                </div>
+                <div class="bio">
+
+                    <h1>Edmund Boma Hart</h1>
+
+                    <p>
+                        Hart Edmund Boma is from Rivers State. He holds a degree in 
+                        Biochemistry and is an Entrepreneur. <br>
+                        He is a tenor per excellence. A dynamic musician with a strong 
+                        voice and fine pitch. <br>
+                        He was born into a family of musicians and has always proven 
+                        himself wherever and whenever. Edmund was a member of St Nicholas 
+                        Anglican Church Choir, Aluu, Port Harcourt, Uniport Concert Chorus, 
+                        Exquisite Choir of Port Harcourt and Choral Voices of Port Harcourt. <br>
+                        His hobbies are singing, cooking, swimming, and playing the game of chess.
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Nonso.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Nonso Samuel Igwebuike</h1>
+
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        <button id="basses" class="click-here2">Bass</button>
+
+        <div class="personal-bio hidden bassesSelect">
+            <h1>Meet the Basses</h1>
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Pere.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Pere Michael Ikputu</h1>
+
+                    <p>
+                        Loading...
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Budex.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Budubueze Ozuru</h1>
+
+                    <p>
+                        Meet Budubueze Ozuru (Budex), a registered engineer and
+                        a Baritone singer with The Chorus, Abuja. <br>
+                        He joined the Trinity Voice Choir (TVC) of the Holy Trinity
+                        Anglican Church, Choba, at the age of 12, where he grew his
+                        musicianship till he assumed the position of the Assistant
+                        Choirmaster, a position he maintained till he left the city
+                        of Port Harcourt. He is a founding member of the Exquisite
+                        Choir of Port Harcourt. <br>
+                        He has been an active member of several Church Choirs - St
+                        Peter's House Chaplaincy Choir & St. Ann's Church Choir both
+                        in Manchester, UK, ANCOPEN Church Choir Lagos and St Matthews
+                        Church Choir Gwarinpa, Abuja to mention but a few. <br>
+
+                        He is happily married to Nengimonyu Susan Okara and they are
+                        blessed with a son, Budukaeze Tarite and a daughter, Buduoma
+                        Nengiala.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/Ifiemi.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Ifiemi John-Lewis</h1>
+
+                    <p>Ifiemi John-Lewis is from Bayelsa State. He is a superb baritone 
+                        singer with a great sense of music. <br>
+                        He previously belonged to choirs such as Nembe City Chorus, 
+                        Restoration Government Choir(Bayelsa state), Royal House of Grace 
+                        Choir (Bayelsa state), King of Glory Chapel Government choir 
+                        (Bayelsa state), St. Luke’s Denery Church choir, Abam-ama, Okrika 
+                        (Rivers state), St. Luke’s Cathedral, Nembe, St. Luke’s Anglican 
+                        Church choir, Okaka/Ekeki(Bayelsa state). <br>
+                        He also plays piano and Violin. <br>
+                        His hobbies are Reading and Researching.
+                        
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="bio-container">
+
+                <div class="bio-image">
+                    <img loading="lazy" src="images/onyedika.jpeg">
+                </div>
+                <div class="bio">
+
+                    <h1>Onyedika Okenwa "Major"</h1>
+
+                    <p> Okenwa Onyedika (Major) is from Anambra State and can be referred 
+                        to as a bass profoundo.
+                        He joined the choir as an Alto singer but finally settled for the 
+                        bass part. <br>
+                        Some of the choirs he blonged/belongs to are St. Andrews Anglican 
+                        Church choir, Evergreen Voices, Soul Lifter Voices, Chapel of Light, 
+                        Oko, St. Barthlomew cathedral Choir, Abuja Choral Society and Festival 
+                        of Praise Choir. <br>
+                        His hobbies are traveling, singing, dancing and reading.
+                        
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <div class="foot-extra">
+            <a href="about.html">About Us</a></li>
+            <a href="contact.html">Contact Us</a></li>
+            <a href="donate.html">Donate</a></li>
+        </div>
+
+        <p>Follow us on our social media handles</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/thechorusabuja/"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.Instagram.com/thechorus_abuja/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@thechorusabuja"><i class="fa fa-youtube"></i></a>
+            <a href="https://twitter.com/thechorusabuja"><i class="fa fa-twitter"></i></a>
+        </div>
+        <p>© 2022 The Chorus. All rights reserved.</p>
+    </section>
+
+
+
+    <!------JavaScript for Toggle Menu------>
+    <!------JavaScript for Toggle Menu------>
+    <script src="pages.js"></script>
+    <script src="index.js"></script>
+    <script src="members.js"></script>
+</body>
